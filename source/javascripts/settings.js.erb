@@ -1,0 +1,37 @@
+var MEME_SETTINGS = {
+  downloadName: 'question', // The name of the downloaded image file (will have a ".png" extension added).
+  fontColor: 'white', // Universal font color.
+
+  // Universal font family for texts:
+  // Note that you'll need to included quoted font names as you would in CSS, ie: '"Knockout 28 B"'.
+  fontFamily: 'Helvetica Neue',
+  // Font family options: set to empty array to disable font selector.
+  // These options may also be formatted as {text:'Knockout', value:'"Knockout 28 B"'}.
+  fontFamilyOpts: ['Arial', 'Helvetica Neue', 'Comic Sans MS'],
+  
+  // Font size of main question:
+  fontSize: 24,
+  // Font size options: set to empty array to disable font-size selector.
+  fontSizeOpts: [
+    {text: 'Small text', value: 14},
+    {text: 'Medium text', value: 24},
+    {text: 'Large text', value: 36}
+  ],
+
+  questionText: 'Write question here', // Default question text.
+  height: 378, // Canvas rendering height.
+
+  // Image background color, or blank ('') for no background:
+  backgroundColor: '#2980b9',
+  // background color options: set to empty array to disable background options selector.
+  backgroundColorOpts: ['#2980b9', '#7D8A2E', '#FF8598', '#B9121B', '#BD8D46'],
+  paddingRatio: 0.05, // Percentage of canvas width to use as edge padding.
+  
+  // Text alignment: valid settings are "left", "center", and "right".
+  textAlign: 'center',
+
+  textShadow: false, // Text shadow toggle.
+  textShadowEdit: true, // Toggles text shadow control within the editor.
+
+  width: 755 // Canvas rendering width.
+};

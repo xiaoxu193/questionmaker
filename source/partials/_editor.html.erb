@@ -1,0 +1,24 @@
+<form class="m-editor" id="meme-editor-view">
+  <h2><label for="question">Question</label></h2>
+  <textarea id="question" name="question" type="text" value=""></textarea>
+
+  <select class="font-size" id="font-size">
+    <option value="" disabled>Select a font size</option>
+  </select>
+
+  <select class="font-family" id="font-family">
+    <option value="" disabled>Select a font</option>
+  </select>
+
+  <div class="checkbox-group text-shadow">
+    <input id="text-shadow" name="shadow" type="checkbox"> 
+    <label for="text-shadow">Text Shadow</label>
+  </div>
+
+  <div class="m-editor__background" id="background">
+    <h2>Background Color</h2>
+    <ul class="checkbox-group">
+      <li><label><input type="radio" name="background" value=""> None</label></li>
+    </ul>
+  </div>
+</form>

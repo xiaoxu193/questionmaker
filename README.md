@@ -5,7 +5,7 @@ Ege Mihmanli
 
 ## Install
 
-* `git clone https://github.com/voxmedia/meme.git`
+* `git clone https://github.com/egemih/questionmaker.git`
 * `bundle install`
 * `bundle exec middleman`
 
